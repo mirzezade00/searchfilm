@@ -1,0 +1,86 @@
+.films-container {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .films-search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .films-search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .films-search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .films-search-bar button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .film-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .film-poster {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .film-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  .film-year {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .film-item button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .film-item button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
